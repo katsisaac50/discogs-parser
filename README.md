@@ -19,3 +19,8 @@
 4. Replace with appropriate values for `authKey`, `authSecret` and `inputFile`.
 5. Run `npm install`
 6. Run `node index.js`
+
+Additional configuration options:
+* `limit` values `integer` will limit how many items from the input file you are processing.
+* `offset` values `integer` will skip the first given number of items from the input file you are processing.
+* `verbose` values `true|false` will give you more logging output.
